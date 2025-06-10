@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25px;
+  background: url(img/bcklogin.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+  
+  .container {
+    width: 750px;
+    display: flex;
+    max-width: 850px;
+    background:  #2B2B63;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin: 165px auto;
+    gap: 15px;
+  }
+  
+  .login {
+    width: 400px;
+  }
+  
+  .LOGO{
+    width: 50%;
+    display: flex;
+    
+  }
+  form {
+    width: 250px;
+    margin: 60px auto;
+  }
+  
+   h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: uppercase;
+    color: white;
+    font-family: "Poppins", serif;
+  }
+  
+  hr {
+    border-top: 2px solid white;
+  }
+  
+  p {
+    text-align: center;
+    margin: 10px;
+    color: aliceblue;
+    font-family: "Montserrat", serif;
+  }
+  
+  .right img {
+    width: 450px;
+    height: 115%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    color:  white;
+    font-family: "Poppins", serif;
+  }
+  
+  input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+  }
+  
+  button {
+    border: none;
+    overflow: none;
+    padding: 8px;
+    width: 270px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #FFB310;
+  }
+  a{
+    color: white;
+  }
+  a:hover{
+    color: silver;
+    transition: all 0.2s ease-in-out;
+  }
+  button:hover{
+    background-color: rgb(0, 123, 129);
+    transition: all 0.3s ease-in-out;
+  }
+  @media (max-widht: 880px) {
+    .container{
+      width: 100%;
+      max-width: 750px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  form{
+    width: 250px;
+    margin: 2px auto;
+    padding: 26px;
+
+  }
+
+  @keyframes animate-gradient {
+    to{
+        background-position: 200%;
+    }
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="stye.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tittle">
+            <h4 style="color: rgb(0, 38, 255);">Select a  <span style="color: #000000;">Payment</span> Method</h4>
+            <h3>!!!!!</h3>
+        </div>
+
+        <form action="#">
+            <input type="radio" name="payment" id="Dana">
+            <input type="radio" name="payment" id="Visa">
+            <input type="radio" name="payment" id="Gopay">
+            <input type="radio" name="payment" id="Seabank">
+
+            <div class="category">
+                <label for="Dana">
+                    <div class="imgName">
+                        <div class="imgContainer Dana">
+                            <img src="danad.jpg" alt="Dana">
+                            <a href="dana.html">DANA</a>
+                        </div>
+                        <span class="name"></span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-circle-check"></i></span>
+                </label>
+
+                <label for="Visa">
+                    <div class="imgName">
+                        <div class="imgContainer Visa">
+                            <img src="visa.jpg" alt="Visa">
+                            <a href="visa.html">VISA</a>
+                        </div>
+                        <span class="name"></span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-circle-check"  ></i></span>
+                </label>
+
+                <label for="Gopay">
+                    <div class="imgName">
+                        <div class="imgContainer Gopay">
+                        <img  src="gopay.jpg" alt="Gopay"></img>
+                        <a href="gopay.html">GOPAY</a>
+                        </div>
+                        <span class="name"></span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-circle-check"></i></span>
+                </label>
+
+                <label for="Seabank">
+                    <div class="imgName">
+                        <div class="imgContainer Sea">
+                            <img src="sea bank.jpg" alt="Sea Bank">
+                            <a href="seabank.html">SEABANK</a>
+                        </div>
+                        <span class="name"></span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span>
+                </label>
+            </div>
+        </form>
+    </div>
+</body>
+
+<script src="paymentscript.js"></script>
+</html>

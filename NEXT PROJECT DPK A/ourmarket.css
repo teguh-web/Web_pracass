@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2b2b63;
+    color: white;
+    padding: 1rem;
+}
+.product {
+    font-family: 'Fredoka One', sans-serif; 
+    font-size: 40px; 
+    font-weight: bold; 
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    margin-right: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2b63;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+
+}
+
+nav a:hover {
+    background: #ffd700;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.fa-solid{
+    position: absolute;
+    right: 135px;
+}
+
+.market {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+  }
+  
+  .product-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  
+  .product-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover .overlay {
+    transform: translateY(0);
+  }
+  
+  .overlay h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .overlay p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+  }
+  
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer h3{
+    color: black
+}
+
+footer p{
+    color: black;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container div {
+    max-width: 300px;
+}
+footer {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    text-align: center;
+}
+.icon-list{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+    margin-bottom: 10px;
+}
+.footer-icons svg{
+    width: 30px;
+    height: 30px;
+    fill: brown;
+    transition: all 0.3s ease-in-out;
+}
+.footer-icons:hover{
+    transform: scale(1.1);
+}

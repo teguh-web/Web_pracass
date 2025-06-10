@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pembayaran Barcode</title>
+  <link rel="stylesheet" href="barcode.css">
+  <script src="https://unpkg.com/html5-qrcode"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Pembayaran via Barcode</h1>
+    
+    <img src="img/pembayaran_qrcode.png" alt="Barcode Pembayaran" class="barcode">
+    
+    <button id="start-scan">Scan Barcode</button>
+
+    <div id="reader" style="margin-top: 20px;"></div>
+
+    <div id="result" class="hidden">✅ Pembayaran Berhasil!</div>
+  </div>
+
+  <script src="barcode.js"></script>
+</body>
+</html>

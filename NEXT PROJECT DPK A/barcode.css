@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background: #ffd700;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background: url(img/bcklogin.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+
+  .container h1{
+    color: white;
+  }
+  
+  .barcode {
+    width: 200px;
+    margin: 25px auto;
+    left: 75px;
+    bottom: 20px;
+    position: relative;
+  }
+  
+  #start-scan {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    right: 100px;
+    background-color: #ffd700;
+    border-radius: 5px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 22px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

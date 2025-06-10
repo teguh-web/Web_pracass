@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="pembayaran.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tittle">
+            <h4>Select a <span style="color: #6064b6;">Payment</span> Method</h4>
+        </div>
+
+        <form action="#">
+            <input type="radio" name="payment" id="Dana">
+            <input type="radio" name="payment" id="Visa">
+            <input type="radio" name="payment" id="Gopay">
+            <input type="radio" name="payment" id="Seabank">
+            <input type="radio" name="payment" id="PilihBank">
+
+            <div class="category">
+                <label for="Dana">
+                    <div class="imgName">
+                        <div class="imgContainer Dana">
+                            <img src="img/dana.jpg" alt="Dana">
+                        </div>
+                        <span class="name"></span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-circle-check"></i></span>
+                </label>
+
+                <label for="Visa">
+                    <div class="imgName">
+                        <div class="imgContainer Visa">
+                            <img src="img/visa.jpg" alt="Visa">
+                        </div>
+                        <span class="name"></span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-circle-check"  ></i></span>
+                </label>
+
+                <label for="Gopay">
+                    <div class="imgName">
+                        <div class="imgContainer Gopay">
+                            <img src="img/GoPay2.jpg" alt="Gopay">
+                        </div>
+                        <span class="name"></span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-circle-check"></i></span>
+                </label>
+
+                <label for="Seabank">
+                    <div class="imgName">
+                        <div class="imgContainer Sea">
+                            <img src="img/sea bank new.jpg " alt="Sea Bank">
+                        </div>
+                        <span class="name"></span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-circle-check" ></i></span>
+                </label>
+
+            <div id="payment-details" style="display: none; margin-top: 20px;">
+                <label>
+                    Name:
+                    <input type="text" id="name" required>
+                </label><br><br>
+                <label>
+                    Number:
+                    <input type="text" id="number" required>
+                </label><br><br>
+                <button type="button" onclick="submitPayment()">Confirm Payment</button>
+            </div>
+        </form>
+    </div>
+    <script src="pembayaran.js"></script>
+</body>
+</html>

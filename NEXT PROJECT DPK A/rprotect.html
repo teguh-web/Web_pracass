@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page - PRACASS</title>
+  <link rel="stylesheet" href="triger.css" />
+</head>
+<body>
+  <header>
+    <div class="logo" data-link="ourmarket2.html">
+      <img src="LOGO 1.png" alt="Logo" />
+    </div>
+  </header>
+
+  <main class="product-container">
+    <div class="product-image">
+      <img src="img/9.jpg" alt="long-luler" />
+      <h3>RESPIRATORY PROTECTECTION</h3>
+    </div>
+
+    <div class="product-details">
+      <h2>RESPIRATORY PROTECTECTION</h2>
+      <p class="sold">Terjual 99+ · ⭐ <span class="rating">5.5</span> (<span class="rating-count">79 Rating</span>)</p>
+      <h3 class="price">Rp75.000</h3>
+      <p class="info">Kondisi: Baru<br />Min. Pemesanan: 1</p>
+
+      <h4>Detail</h4>
+      <p class="description">
+        masker repiratori/respiratory protection berfungsi untuk melindungi sistem pernapasan dari berbagai kontaminan berbahaya di udara,
+        sehingga pengguna dapat bernapas dengan aman di lingkungan yang tidak sehat.
+      </p>
+    </div>
+
+    <div class="buy-box">
+      <h4>Atur Jumlah Barang</h4>
+      <div class="quantity-control">
+        <button id="decrease-btn">-</button>
+        <span id="quantity">1</span>
+        <button id="increase-btn">+</button>
+      </div>
+      <p class="stock">Stok total: <span id="stock">21</span></p>
+      <p class="total-price">Total<br /><strong id="total-price">Rp75.000</strong></p>
+
+      <button class="add-to-cart" data-name="cart" data-price="75000">Tambah ke Keranjang</button>
+      <button class="buy-btn" onclick="location.href='pembayaran.html'">BELI</button>
+    </div>
+  </main>
+
+  <script src="rprotect.js"></script>
+  <script src="link.js"></script>
+  <script src="keranjang.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page - PRACASS</title>
+  <link rel="stylesheet" href="triger.css" />
+</head>
+<body>
+  <header>
+    <div class="logo" data-link="ourmarket2.html">
+      <img src="LOGO 1.png" alt="Logo" />
+    </div>
+  </header>
+
+  <main class="product-container">
+    <div class="product-image">
+      <img src="img/1.jpg" alt="Pipe Tools" />
+      <h3>PIPE TOOLS</h3>
+    </div>
+
+    <div class="product-details">
+      <h2>Pipe Tools</h2>
+      <p class="sold">Terjual 99+ · ⭐ <span class="rating">5.0</span> (<span class="rating-count">86 Rating</span>)</p>
+      <h3 class="price">Rp 60.000</h3>
+      <p class="info">Kondisi: Baru<br />Min. Pemesanan: 1</p>
+
+      <h4>Detail</h4>
+      <p class="description">
+        pipe tools pada umunya berfungsi untuk mengencangkan, melonggarkan, memotong, atau menyambung pipa.
+      </p>
+    </div>
+
+    <div class="buy-box">
+      <h4>Atur Jumlah Barang</h4>
+      <div class="quantity-control">
+        <button id="decrease-btn">-</button>
+        <span id="quantity">1</span>
+        <button id="increase-btn">+</button>
+      </div>
+      <p class="stock">Stok total: <span id="stock">30</span></p>
+      <p class="total-price">Total<br /><strong id="total-price">Rp60.000</strong></p>
+
+      <button class="add-to-cart" data-name="cart" data-price="60000">Tambah ke Keranjang</button>
+      <button class="buy-btn" onclick="location.href='pembayaran.html'">BELI</button>
+    </div>
+  </main>
+
+  <script src="triger.js"></script>
+  <script src="link.js"></script>
+  <script src="keranjang.js"></script>
+</body>
+</html>
